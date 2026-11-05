@@ -1,0 +1,119 @@
+.card-photo {
+  width: 100%;
+  height: 154px;
+  margin: 15px 0 13px;
+  overflow: hidden;
+  background: #d8c7ae;
+}
+
+.card-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .45s ease;
+}
+
+.work-card:hover .card-photo img {
+  transform: scale(1.035);
+}
+
+.programme-photo-credit {
+  margin: 18px 0 0;
+  color: #d6c7b6;
+  font-size: 9px;
+  line-height: 1.8;
+}
+
+.programme-photo-credit a {
+  color: #ffe39a;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.impact-grid article {
+  overflow: hidden;
+}
+
+.impact-photo {
+  display: block;
+  width: calc(100% + 42px);
+  max-width: none;
+  height: 132px;
+  margin: -23px -21px 15px;
+  object-fit: cover;
+}
+
+.impact-label {
+  display: block;
+}
+
+.pathway-steps article {
+  min-height: 330px;
+}
+
+.step-photo {
+  display: block;
+  width: 100%;
+  height: 116px;
+  margin: 14px 0 12px;
+  object-fit: cover;
+  border: 1px solid #ffffff30;
+}
+
+.step-icon {
+  display: none;
+}
+
+.interlude-credit {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  z-index: 2;
+  margin: 0;
+  padding: 3px 6px;
+  border-radius: 2px;
+  background: #382414d9;
+  color: #fff;
+  font-size: 8px;
+}
+
+.interlude-credit a {
+  color: #fff;
+}
+
+.pathway .photo-credit {
+  color: #d6c7b6;
+}
+
+.pathway .photo-credit a {
+  color: #ffe39a;
+}
+
+@media (max-width: 900px) {
+  .pathway-steps article {
+    min-height: 295px;
+  }
+}
+
+@media (max-width: 680px) {
+  .card-photo {
+    height: 190px;
+    margin: 12px 0 14px;
+  }
+
+  .impact-photo {
+    width: calc(100% + 40px);
+    height: 175px;
+    margin: -20px -20px 15px;
+  }
+
+  .pathway-steps article {
+    min-height: 0;
+    padding-bottom: 22px;
+  }
+
+  .step-photo {
+    height: 135px;
+    margin: 12px 0 11px;
+  }
+}

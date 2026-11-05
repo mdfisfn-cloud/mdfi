@@ -1,0 +1,193 @@
+.site-footer {
+  padding: 0 10% 20px;
+  background: var(--brown);
+  color: #f8eadd;
+}
+
+.footer-connect-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  padding: 25px 0;
+  border-bottom: 1px solid #ffffff32;
+}
+
+.footer-connect-strip > div > span {
+  color: var(--yellow);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: .16em;
+}
+
+.footer-connect-strip p {
+  margin: 5px 0 0;
+  color: #fff7ed;
+  font-family: var(--display);
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.footer-tollfree {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 9px 15px;
+  min-width: 270px;
+  padding: 12px 16px;
+  border: 1px solid #ffffff40;
+  border-radius: 4px;
+}
+
+.footer-tollfree span {
+  color: #d7c7b6;
+  font-size: 9px;
+  letter-spacing: .07em;
+}
+
+.footer-tollfree strong {
+  color: white;
+  font-size: 15px;
+  letter-spacing: .02em;
+}
+
+.footer-tollfree b {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+  color: var(--yellow);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.footer-tollfree:hover {
+  border-color: var(--yellow);
+  background: #ffffff08;
+}
+
+.footer-main {
+  grid-template-columns: 1.15fr .8fr .9fr 1.45fr;
+  gap: 32px;
+  padding: 35px 0 31px;
+}
+
+.footer-brand {
+  gap: 12px;
+}
+
+.footer-brand img {
+  width: 54px;
+  height: 54px;
+}
+
+.footer-brand span {
+  font-size: 9px;
+  letter-spacing: .08em;
+}
+
+.footer-column > a {
+  line-height: 1.55;
+  transition: color .2s;
+}
+
+.footer-contact address {
+  line-height: 1.8;
+}
+
+.footer-call-title {
+  margin-top: 17px !important;
+}
+
+.footer-bottom {
+  margin-top: 0;
+  border-top: 1px solid #ffffff32;
+  padding-top: 15px;
+  font-size: 9px;
+}
+
+.footer-bottom a {
+  color: #f1dfce;
+}
+
+.footer-legal-links {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.footer-bottom .footer-legal-links a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-bottom .footer-legal-links a:hover {
+  color: var(--yellow);
+}
+
+.footer-bottom a b {
+  margin-left: 5px;
+  color: var(--yellow);
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .site-footer {
+    padding-right: 7%;
+    padding-left: 7%;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .footer-identity {
+    grid-row: auto;
+  }
+
+  .footer-contact {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 680px) {
+  .site-footer {
+    padding: 0 7% 18px;
+  }
+
+  .footer-connect-strip {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    padding: 23px 0;
+  }
+
+  .footer-connect-strip p {
+    font-size: 18px;
+  }
+
+  .footer-tollfree {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 25px;
+    padding: 27px 0;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .footer-legal-links {
+    gap: 18px;
+  }
+
+  .footer-bottom > span:nth-child(2) {
+    order: 0;
+    width: auto;
+  }
+}
