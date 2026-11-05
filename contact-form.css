@@ -8,6 +8,12 @@
   margin: 26px 0 22px;
 }
 
+.stories-head h2 {
+  font-family: var(--body);
+  font-weight: 600;
+  letter-spacing: -.055em;
+}
+
 .connect-copy p {
   max-width: 360px;
   color: var(--muted);
