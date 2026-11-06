@@ -1,0 +1,210 @@
+/* Mobile-first refinements for the site's primary phone audience. */
+@media (max-width: 680px) {
+  html {
+    scroll-padding-top: 100px;
+  }
+
+  [id] {
+    scroll-margin-top: 100px;
+  }
+
+  .site-header {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+  .main-nav {
+    top: 90px;
+    padding: 12px 5% 18px;
+  }
+
+  .main-nav > a {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+
+  .main-nav .nav-cta {
+    min-height: 48px;
+    padding: 12px 0;
+  }
+
+  .section-pad {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+
+  .hero {
+    padding-right: 6%;
+    padding-left: 6%;
+  }
+
+  .hero-actions {
+    align-items: flex-start;
+  }
+
+  .button,
+  .text-link,
+  .underlined-link {
+    min-height: 44px;
+  }
+
+  .hero-actions .text-link {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .photo-credit,
+  .programme-photo-credit {
+    font-size: 10px;
+    overflow-wrap: anywhere;
+  }
+
+  .form-field input,
+  .form-field select,
+  .form-field textarea {
+    font-size: 16px;
+  }
+
+  .footer-map-link span {
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .floating-contact-actions {
+    right: max(12px, env(safe-area-inset-right));
+    bottom: max(16px, env(safe-area-inset-bottom));
+  }
+}
+
+@media (max-width: 480px) {
+  .announcement {
+    letter-spacing: .08em;
+  }
+
+  .section-pad {
+    padding-top: 58px;
+    padding-bottom: 58px;
+  }
+
+  .hero {
+    padding-top: 34px;
+    padding-bottom: 52px;
+  }
+
+  .hero h1 {
+    font-size: clamp(50px, 14vw, 65px);
+  }
+
+  .hero-art {
+    min-height: 310px;
+  }
+
+  .hero-photo {
+    height: 290px;
+  }
+
+  .section-kicker {
+    gap: 8px;
+    font-size: 8px;
+    letter-spacing: .12em;
+  }
+
+  .manifesto h2,
+  .work-heading h2,
+  .field-notes-head h2,
+  .pathway-heading h2,
+  .stories-head h2,
+  .impact-intro h2,
+  .collaboration-head h2,
+  .connect-section h2 {
+    font-size: 40px;
+  }
+
+  .work-grid {
+    gap: 12px;
+  }
+
+  .work-card {
+    min-height: 0;
+    padding: 18px;
+  }
+
+  .work-card h3 {
+    font-size: 24px;
+  }
+
+  .photo-grid {
+    grid-template-rows: 220px 155px 155px;
+    gap: 8px;
+  }
+
+  .pathway-steps {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .pathway-steps article,
+  .pathway-steps article + article,
+  .pathway-steps article:nth-child(3),
+  .pathway-steps article:nth-child(4) {
+    min-height: 0;
+    padding: 18px 0;
+    border-left: 0;
+    border-top: 1px solid #ffffff38;
+  }
+
+  .pathway-steps article:first-child {
+    border-top: 0;
+  }
+
+  .step-photo {
+    height: 170px;
+  }
+
+  .story-card-image,
+  .story-card:last-child .story-card-image {
+    height: 205px;
+  }
+
+  .closing-band {
+    min-height: 340px;
+    padding: 54px 6%;
+  }
+
+  .closing-band h2 {
+    font-size: 42px;
+  }
+
+  .contact-form {
+    padding: 18px;
+    border-radius: 10px;
+  }
+
+  .form-field textarea {
+    min-height: 130px;
+  }
+
+  .footer-group h2 {
+    font-size: 12px;
+    letter-spacing: .11em;
+    text-align: center;
+  }
+
+  .footer-group-logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .floating-contact-actions {
+    right: 10px;
+    gap: 8px;
+  }
+
+  .floating-contact-button {
+    width: 48px;
+    height: 48px;
+  }
+}
