@@ -4,15 +4,15 @@
 }
 
 .brand {
-  width: 108px;
-  height: 108px;
-  flex: 0 0 108px;
+  width: 111px;
+  height: 111px;
+  flex: 0 0 111px;
   overflow: visible;
 }
 
 .brand img {
-  width: 104px;
-  height: 104px;
+  width: 107px;
+  height: 107px;
   max-width: none;
   object-fit: contain;
 }
@@ -31,13 +31,13 @@
   }
 
   .brand {
-    width: 88px;
-    height: 88px;
-    flex-basis: 88px;
+    width: 91px;
+    height: 91px;
+    flex-basis: 91px;
   }
 
   .brand img {
-    width: 84px;
-    height: 84px;
+    width: 87px;
+    height: 87px;
   }
 }
